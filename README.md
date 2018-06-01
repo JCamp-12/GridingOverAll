@@ -1,6 +1,4 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+# Griding Over All
 
 ### Getting Started
 
@@ -22,4 +20,8 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 ```
 > npm install
 > npm start
+```
+```
+> yarn install
+> yarn start
 ```
