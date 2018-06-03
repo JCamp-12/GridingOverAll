@@ -9,7 +9,12 @@ class SearchBar extends Component {
   }
 
   render() {
-    return <input onChange={event => console.log(event.target.value)} />;
+    return (
+      <div>
+        <input onChange={event => this.setState({ term: event.target.value })} />;
+        value of the input: { this.state.term }
+      </div>
+    )
   }
   // **Used the es16 fat arrow syntax above so the below is not needed**
   // onInputChange(event) {
